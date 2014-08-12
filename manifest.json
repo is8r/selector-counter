@@ -1,0 +1,18 @@
+{
+  "name": "Selector Checker",
+  "manifest_version": 2,
+  "version": "0.1",
+  "icons": {
+    "128": "images/icon.png"
+  },
+  "browser_action": {
+    "default_icon": "images/default_icon.png"
+  },
+  "background": {
+    "scripts": ["js/chrome.js"],
+    "persistent": false
+  },
+  "permissions": [
+    "notifications", "tabs", "file://*/*", "http://*/*", "https://*/*"
+  ]
+}
